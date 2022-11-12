@@ -11,8 +11,8 @@ def sing_up():
     main.geometry('200x200')
 
     labes(main, text=',логин и пароль').grid(row=0) #ров это строчка
-    labes(main, text=',логин и пароль').pack(side=TOP)
-    labes(main, text=',логин и пароль').pack(side=TOP)
+    labes(main, text=',логин').grid(row=1, sticky = w)
+    labes(main, text=',пароль').grid(row=2, sticky= W)
 
 mainloop()
 #создание кортанки
